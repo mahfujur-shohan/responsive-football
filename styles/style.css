@@ -44,3 +44,19 @@
     width: 556px;
     height: 438px;
 }
+
+/* second part */
+
+.player{
+    margin-top: 85px;
+    margin-right: 225px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 27px;
+}
+.player-info img{
+    width: 300px;
+    height: 256px;
+}
