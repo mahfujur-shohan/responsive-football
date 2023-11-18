@@ -41,6 +41,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .players {
     display: grid;
@@ -56,3 +57,22 @@ body {
 .player img {
     width: 300px;
 }
+
+/* footer */
+.footer img {
+    width: 500px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.icons {
+    margin-bottom: 15px;
+}
+.footer .icons {
+    font-size: 32px;
+}
+
